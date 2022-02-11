@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(247, 229, 229);
+}
+h1 {
+color: rgb(172, 16, 164);
+text-transform: uppercase;
+}
+li {
+    background-color: rgb(58, 179, 10);
+}
+hr {
+    height: 7px;
+    background-color: rgb(253, 2, 2);
+    width: 70%;
+}
+p {
+    font-size: 30px;
+    text-shadow: 2px 3px 3px lawngreen;
+}
