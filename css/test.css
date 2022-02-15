@@ -5,12 +5,17 @@ body{
     line-height: 1.5;
 }
 .header {
+    align-items: center;
     display: flex;
     border-bottom: 1px solid #000;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 20px;
 }
 .logo {
+    padding: 5px 15px;
     margin-right: 50px;
     text-decoration: none;
     color: lightgreen;
@@ -24,7 +29,7 @@ ul {
     margin: 0;
 }
 ul > li {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 .box {
     display: flex;
@@ -33,14 +38,17 @@ ul > li {
     border-bottom: 1px solid #000;
 }
 .aside {
-    border-right: 1px solid #000;
-    padding-right: 20px;
+    /* border-right: 1px solid #000;
+    padding-right: 20px; */
+    padding: 10px 20px;
+    background-color: lavender;
 }
 .post {
     padding-bottom: 20px;
 }
 footer{
     font-size: 13px;
+    padding: 0 20px;
 }
 a {
     text-decoration: none;
@@ -50,4 +58,9 @@ a {
 h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+section {
+    padding: 5px 20px;
+    margin-bottom: 20px;
+   background-color: lavender;
 }
