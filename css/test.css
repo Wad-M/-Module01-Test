@@ -64,3 +64,15 @@ section {
     margin-bottom: 20px;
    background-color: lavender;
 }
+section a {
+
+}
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 10px;
+}
+ul :last-child {
+    margin-right: 0;
+}
